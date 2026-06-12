@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@font-face {
+  font-family: Poppins;
+  src: url(../partials/fonts/poppins/Poppins-Regular.ttf);
+  src: url(../partials/fonts/poppins/Poppins-SemiBold.ttf);
+  src: url(../partials/fonts/poppins/Poppins-Bold.ttf);
+  src: url(../partials/fonts/poppins/Poppins-Bold.eot);
+  src: url(../partials/fonts/poppins/Poppins-Regular.eot);
+  src: url(../partials/fonts/poppins/Poppins-SemiBold.eot);
+  src: url(../partials/fonts/poppins/Poppins-Bold.woff);
+  src: url(../partials/fonts/poppins/Poppins-Regular.woff);
+  src: url(../partials/fonts/poppins/Poppins-SemiBold.woff);
+  src: url(../partials/fonts/poppins/Poppins-Bold.woff2);
+  src: url(../partials/fonts/poppins/Poppins-Regular.woff2);
+  src: url(../partials/fonts/poppins/Poppins-SemiBold.woff2);
+}
+body {
+  font-family: Poppins;
+}
+
+@theme {
+  --color-bghero: #1c1e53;
+  --color-bgblue: #f4f6fc;
+  --color-bgbabyblue: #f9fafd;
+  --color-yellow: #fcd980;
+  --color-lightgray: #bbbbcb;
+  --color-midgray: #697284;
+  --color-blue: #5239fa;
+  --color-gray: #282938;
+}
+@utility container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
