@@ -1,0 +1,1151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <!-- <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" /> -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <!-- start hero section -->
+      <section class="w-full pb-15 pt-5 lg:pt-4 lg:pb-30 bg-bghero">
+        <!-- start navbar -->
+        <div class="flex flex-row items-center justify-between container">
+          <!--start logo -->
+          <div class="">
+            <img
+              class="w-27 lg:w-30.5"
+              src="./public/partials/images/hero-home/logo.svg"
+              alt="Logo"
+            />
+          </div>
+          <!-- end logo -->
+          <!-- start menu -->
+          <div
+            class="hidden  lg:flex flex-row items-center gap-8 text-[18px]"
+          >
+            <a class="text-white" href="./index.html">Home</a>
+            <a
+              class="text-lightgray hover:text-white"
+              href="./pages/aboutus.html"
+              >About us</a
+            >
+            <a
+              class="text-lightgray hover:text-white"
+              href="./pages/features.html"
+              >Features</a
+            >
+            <a
+              class="text-lightgray hover:text-white"
+              href="./pages/pricing.html"
+              >Pricing</a
+            >
+            <a class="text-lightgray hover:text-white" href="#"
+              >FAQ</a
+            >
+            <a class="text-lightgray hover:text-white" href="./pages/blog.html"
+              >Blog</a
+            >
+            <a
+              class="text-lightgray border-2 border-[#F4F6FC33] px-12 py-3 ml-2 rounded-full hover:text-bghero hover:bg-yellow hover:border-white translate duration-300"
+              href="./pages/contactus.html"
+              >Contact us</a
+            >
+          </div>
+          <input type="checkbox" id="menu-toggle" class="hidden peer" />
+          <label for="menu-toggle" class="lg:hidden cursor-pointer text-gray-300 hover:text-white">
+            <svg
+              class="w-8 h-8"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </label>
+          <div class="fixed inset-0 bg-bghero z-500 flex-col items-center hidden peer-checked:flex">
+
+            <label for="menu-toggle" class="cursor-pointer self-start text-gray-300 hover:text-white p-8">
+              <svg
+                class="w-8 h-8"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+                ></path>
+                </svg>
+            </label>
+
+            <nav class="flex flex-col gap-8 text-xl text-center flex-1 justify-center items-center">
+              <a href="#" class="text-white">Home</a>
+              <a href="./pages/aboutus.html" class="text-gray-300 hover:text-white">About us</a>
+              <a href="./pages/features.html" class="text-gray-300 hover:text-white">Features</a>
+              <a href="./pages/pricing.html" class="text-gray-300 hover:text-white">Pricing</a>
+              <a href="#" class="text-gray-300 hover:text-white">FAQ</a>
+              <a href="./pages/blog.html" class="text-gray-300 hover:text-white">Blog</a>
+              <a href="./pages/contactus.html" class="text-lightgray border-2 border-[#F4F6FC33] px-8 py-2 rounded-full hover:text-bghero hover:bg-yellow hover:border-white translate duration-300">Contact us</a>
+            </nav>
+
+          </div>
+          <!-- end menu -->
+        </div>
+        <!-- end navbar -->
+        <!--start hero column -->
+        <div class="lg:flex lg:flex-row lg:gap-4 lg:justify-between container">
+          <!--start left column -->
+          <div class="flex flex-col lg:w-[42%] mt-15 lg:mt-35">
+            <h1
+              class="text-white text-center lg:text-start lg:text-[58px] text-[28px] font-semibold lg:leading-18"
+            >
+              Building stellar websites for early startups
+            </h1>
+            <p
+              class="text-lightgray text-center lg:text-start pt-6 lg:pt-5 lg:text-[18px]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+
+            <div
+              class="flex justify-center lg:justify-start flex-row gap-2.5 lg:gap-4 pt-8 lg:pt-10"
+            >
+              <a
+                class="bg-yellow px-6 py-2 lg:px-13 lg:py-4.5 rounded-full lg:hover:bg-lightgray transition duration-300 cursor-pointer"
+                href="./pages/work.html"
+              >
+                <p
+                  class="text-gray lg:text-[18px] lg:font-semibold whitespace-nowrap"
+
+                  >View our work</p>
+                
+              </a>
+
+              <a
+                 href="./pages/pricing.html"
+                class="flex flex-row gap-2 items-center text-white lg:hover:bg-lightgray lg:px-9 lg:py-4.5 rounded-full transition duration-300 text-[14px] cursor-pointer"
+              >
+                <p class="whitespace-nowrap lg:font-semibold lg:text-[18px]">
+                  View Pricing</p>
+                
+                <img
+                  src="./public/partials/images/hero-home/Arrow 1.svg"
+                  alt="Arrow"
+                  class="w-6"
+                />
+              </a>
+            </div>
+          </div>
+          <!--end left column -->
+          <!-- start right column -->
+          <div class="hidden lg:block mt-38 w-[50%]">
+            <img
+              src="./public/partials/images/hero-home/Illustration.svg"
+              alt="Hero image"
+            />
+          </div>
+          <!-- end right column -->
+        </div>
+        <!--end hero column -->
+      </section>
+      <!-- end hero section -->
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <main>
+      <!-- start how we work section -->
+      <section class="w-full pb-10 pt-10 lg:pt-25 lg:pb-40 bg-bgblue">
+        <div class="container lg:flex lg:flex-row lg:justify-between">
+          <!-- start caption -->
+          <div class="lg:w-[30%]">
+            <div class="flex flex-row lg:flex-col justify-between gap-3">
+              <h2 class="text-[23px] text-gray lg:text-[52px] font-bold">
+                How we work
+              </h2>
+              <div class="flex flex-row items-center gap-1 lg:hidden">
+                <p class="text-blue text-[13px] cursor-pointer">
+                  Get in touch with us
+                </p>
+                <img
+                  class="w-5"
+                  src="./public/partials/images/home/Arrow 2.svg"
+                  alt="Arrow"
+                />
+              </div>
+            </div>
+            <div>
+              <p class="text-midgray pt-2 lg:pt-3 lg:text-[18px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+            <div class="hidden lg:flex flex-row items-center gap-1 lg:pt-5">
+              <p
+                class="text-blue text-[13px] lg:text-[20px] font-semibold cursor-pointer"
+              >
+                Get in touch with us
+              </p>
+              <img
+                class="w-5 lg:w-7"
+                src="./public/partials/images/home/Arrow 2.svg"
+                alt="Arrow"
+              />
+            </div>
+          </div>
+          <!-- end caption -->
+          <!--start items  -->
+          <div
+            class="grid grid-cols-2 gap-x-3 gap-y-7 lg:gap-y-12 pt-7 lg:w-[56%] lg:pt-2"
+          >
+            <div>
+              <img
+                class="w-11 lg:w-13 pb-2 lg:pb-3"
+                src="./public/partials/images/home/1.svg"
+                alt=""
+              />
+              <h2 class="text-[17px] lg:text-[34px] font-semibold text-gray">
+                Strategy
+              </h2>
+              <p class="text-midgray lg:text-[18px] lg:pt-1">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam.
+              </p>
+            </div>
+            <div>
+              <img
+                class="w-11 lg:w-13 pb-2 lg:pb-3"
+                src="./public/partials/images/home/pointer 1.svg"
+                alt=""
+              />
+              <h2 class="text-[17px] lg:text-[34px] font-semibold text-gray">
+                Wireframing
+              </h2>
+              <p class="text-midgray lg:text-[18px] lg:pt-1">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam.
+              </p>
+            </div>
+            <div>
+              <img
+                class="w-11 lg:w-13 pb-2 lg:pb-3"
+                src="./public/partials/images/home/pointer 1 (1).svg"
+                alt=""
+              />
+              <h2 class="text-[17px] lg:text-[34px] font-semibold text-gray">
+                Design
+              </h2>
+              <p class="text-midgray lg:text-[18px] lg:pt-1">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam.
+              </p>
+            </div>
+            <div>
+              <img
+                class="w-11 lg:w-13 pb-2 lg:pb-3"
+                src="./public/partials/images/home/pointer 1 (2).svg"
+                alt=""
+              />
+              <h2 class="text-[17px] lg:text-[34px] font-semibold text-gray">
+                Development
+              </h2>
+              <p class="text-midgray lg:text-[18px] lg:pt-1">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam.
+              </p>
+            </div>
+          </div>
+          <!-- end items -->
+        </div>
+      </section>
+      <!-- end how we work section -->
+
+      <!-- start view our works -->
+      <section class="w-full bg-white">
+        <div class="container pb-10 pt-9 lg:pb-30 lg:pt-30">
+          <!-- start title -->
+          <div class="flex flex-row items-center justify-between">
+            <h2 class="text-[23px] text-gray lg:text-[48px] font-bold">
+              view our project
+            </h2>
+            <div class="flex flex-row gap-1">
+              <a
+                href="./pages/work.html"
+                class="cursor-pointer text-[13px] lg:text-[18px] text-gray"
+              >
+                view more
+              </a>
+              <img
+                src="./public/partials/images/home/Arrow 1 (1) (1).svg"
+                alt="Arrow"
+                class="w-5 lg:w-6"
+              />
+            </div>
+          </div>
+
+          <div class="pt-5 lg:pt-12">
+            <div class="flex flex-col gap-4 lg:flex-row lg:gap-7">
+              <div class="relative overflow-hidden group lg:w-2/3">
+                <img
+                  class="w-full h-full object-cover"
+                  src="./public/partials/images/home/image.jpeg"
+                  alt=""
+                />
+
+                <div
+                  class="hidden lg:block absolute inset-y-0 left-0 w-0 bg-linear-to-tl from-[#1C1E53] to-[#1C1E536B] transition-all duration-500 group-hover:w-1/2"
+                ></div>
+
+                <div
+                  class="hidden lg:block absolute bottom-0 left-0 z-10 pb-20 pl-8 text-white opacity-0 -translate-x-6 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0"
+                >
+                  <h2 class="w-[46%] text-3xl font-semibold">
+                    Workhub office Webflow Webflow Design
+                  </h2>
+
+                  <p class="pt-4 w-[46%] text-[18px] text-white/80">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam
+                  </p>
+
+                  <a
+                    href="#"
+                    class="text-[18px] pt-10 flex items-center gap-2 text-yellow"
+                  >
+                    View project
+                    <img
+                      src="./public/partials/images/home/ar.svg"
+                      alt="Arrow"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <div
+                class="grid grid-cols-2 gap-4 lg:w-1/3 lg:flex lg:flex-col lg:gap-7"
+              >
+                <div class="relative overflow-hidden group">
+                  <img
+                    class="w-full aspect-4/3 object-cover"
+                    src="./public/partials/images/home/image2.jpeg"
+                    alt=""
+                  />
+
+                  <div
+                    class="hidden lg:block absolute inset-y-0 left-0 w-0 bg-linear-to-tl from-[#1C1E53] to-[#1C1E536B] transition-all duration-500 group-hover:w-full"
+                  ></div>
+
+                  <div
+                    class="hidden lg:block absolute bottom-0 left-0 z-10 pl-6 pb-13 text-white opacity-0 -translate-x-6 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0"
+                  >
+                    <h3 class="text-2xl font-semibold">
+                      Unisaas Website Design
+                    </h3>
+
+                    <a
+                      href="#"
+                      class="pt-4 flex items-center gap-2 text-yellow"
+                    >
+                      View portfolio
+                      <img
+                        src="./public/partials/images/home/ar.svg"
+                        alt="Arrow"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="relative overflow-hidden group">
+                  <img
+                    class="w-full aspect-4/3 object-cover"
+                    src="./public/partials/images/home/image3.jpeg"
+                    alt=""
+                  />
+
+                  <div
+                    class="hidden lg:block absolute inset-y-0 left-0 w-0 bg-linear-to-tl from-[#1C1E53] to-[#1C1E536B] transition-all duration-500 group-hover:w-full"
+                  ></div>
+
+                  <div
+                    class="hidden lg:block absolute bottom-0 left-0 z-10 pl-6 pb-13 text-white opacity-0 -translate-x-6 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0"
+                  >
+                    <h3 class="text-2xl font-semibold">Portfolio Design</h3>
+
+                    <a
+                      href="#"
+                      class="pt-4 flex items-center gap-2 text-yellow"
+                    >
+                      View portfolio
+                      <img
+                        src="./public/partials/images/home/ar.svg"
+                        alt="Arrow"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- end project -->
+        </div>
+      </section>
+      <!-- end view our works -->
+
+      <!-- start features -->
+      <section class="bg-bgblue">
+        <div class="container pt-10 pb-20 lg:pt-30 lg:pb-30">
+          <!-- start title -->
+          <div class="flex flex-col items-center">
+            <p class="text-gray text-[13px] font-semibold lg:text-[18px]">
+              Features
+            </p>
+            <h2
+              class="text-gray text-[23px] text-center lg:text-[52px] font-bold w-[75%] lg:w-[48%] lg:leading-16 lg:pt-3"
+            >
+              Design that solves problems, one product at a time
+            </h2>
+          </div>
+          <!-- end title -->
+          <!-- start cards -->
+          <div
+            class="grid grid-cols-1 gap-3 pt-8 lg:grid-cols-3 lg:gap-7 lg:pt-10"
+          >
+            <div class="bg-white px-7 pt-8 pb-5 lg:px-12 lg:pt-15 lg:pb-11">
+              <img src="./public/partials/images/home/Icon (1).svg" alt="" />
+              <h3 class="text-gray font-semibold lg:text-[24px] lg:pt-5">
+                Uses Client First
+              </h3>
+              <p class="text-midgray lg:text-[18px] lg:pt-3">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Lorem, ipsum dolor sit
+                amet consectetur adipisicing.
+              </p>
+            </div>
+            <div class="bg-white px-7 pt-8 pb-5 lg:px-12 lg:pt-15 lg:pb-11">
+              <img src="./public/partials/images/home/Icon (1).svg" alt="" />
+              <h3 class="text-gray font-semibold lg:text-[24px] lg:pt-5">
+                Uses Client First
+              </h3>
+              <p class="text-midgray lg:text-[18px] lg:pt-3">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Lorem, ipsum dolor sit
+                amet consectetur adipisicing.
+              </p>
+            </div>
+            <div class="bg-white px-7 pt-8 pb-5 lg:px-12 lg:pt-15 lg:pb-11">
+              <img src="./public/partials/images/home/Icon (1).svg" alt="" />
+              <h3 class="text-gray font-semibold lg:text-[24px] lg:pt-5">
+                Uses Client First
+              </h3>
+              <p class="text-midgray lg:text-[18px] lg:pt-3">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Lorem, ipsum dolor sit
+                amet consectetur adipisicing.
+              </p>
+            </div>
+            <div class="bg-white px-7 pt-8 pb-5 lg:px-12 lg:pt-15 lg:pb-11">
+              <img src="./public/partials/images/home/Icon (1).svg" alt="" />
+              <h3 class="text-gray font-semibold lg:text-[24px] lg:pt-5">
+                Uses Client First
+              </h3>
+              <p class="text-midgray lg:text-[18px] lg:pt-3">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Lorem, ipsum dolor sit
+                amet consectetur adipisicing.
+              </p>
+            </div>
+            <div class="bg-white px-7 pt-8 pb-5 lg:px-12 lg:pt-15 lg:pb-11">
+              <img src="./public/partials/images/home/Icon (1).svg" alt="" />
+              <h3 class="text-gray font-semibold lg:text-[24px] lg:pt-5">
+                Uses Client First
+              </h3>
+              <p class="text-midgray lg:text-[18px] lg:pt-3">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Lorem, ipsum dolor sit
+                amet consectetur adipisicing.
+              </p>
+            </div>
+            <div class="bg-white px-7 pt-8 pb-5 lg:px-12 lg:pt-15 lg:pb-11">
+              <img src="./public/partials/images/home/Icon (1).svg" alt="" />
+              <h3 class="text-gray font-semibold lg:text-[24px] lg:pt-5">
+                Uses Client First
+              </h3>
+              <p class="text-midgray lg:text-[18px] lg:pt-3">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Lorem, ipsum dolor sit
+                amet consectetur adipisicing.
+              </p>
+            </div>
+          </div>
+          <!-- end cards -->
+        </div>
+      </section>
+      <!-- end features -->
+
+      <!-- start client -->
+      <section class="bg-bgbabyblue">
+        <div
+          class="container flex flex-col gap-8 lg:flex-row justify-between pt-10 pb-10 lg:pt-30 lg:pb-20"
+        >
+          <!-- start left column -->
+          <div class="flex flex-col lg:w-[30%]">
+            <h2
+              class="text-gray font-bold text-[24px] text-center lg:text-start lg:text-[42px] lg:leading-13"
+            >
+              What our clients say about us
+            </h2>
+            <p
+              class="text-midgray text-center lg:text-start lg:text-[18px] pt-2 lg:pt-4"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
+            </p>
+          </div>
+          <!-- end left column -->
+          <!-- start right column -->
+          <div class="lg:w-[65%] h-full relative">
+            <!-- Swiper -->
+            <div class="swiper mySwiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="flex flex-col items-start gap-12">
+                    <div>
+                      <h2
+                        class="text-[18px] lg:text-[32px] text-gray font-semibold"
+                      >
+                        "The best agency we've worked with so far. They
+                        understand our product and are able to add new features
+                        with a great focus."
+                      </h2>
+                    </div>
+                    <div class="flex flex-row gap-3 lg:gap-5">
+                      <div>
+                        <img
+                          class="w-13"
+                          src="./public/partials/images/home/Mask Group.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <p class="text-[16px] lg:text-[20px] text-gray">
+                          Jenny Wilson
+                        </p>
+                        <p class="text-[11px] lg:text-[14px] text-gray">
+                          Vice President
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="flex flex-col items-start gap-12">
+                    <div>
+                      <h2
+                        class="text-[18px] lg:text-[32px] text-gray font-semibold"
+                      >
+                        "The best agency we've worked with so far. They
+                        understand our product and are able to add new features
+                        with a great focus."
+                      </h2>
+                    </div>
+                    <div class="flex flex-row gap-3 lg:gap-5">
+                      <div>
+                        <img
+                          class="w-13"
+                          src="./public/partials/images/home/Mask Group.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <p class="text-[16px] lg:text-[20px] text-gray">
+                          Jenny Wilson
+                        </p>
+                        <p class="text-[11px] lg:text-[14px] text-gray">
+                          Vice President
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="flex flex-col items-start gap-12">
+                    <div>
+                      <h2
+                        class="text-[18px] lg:text-[32px] text-gray font-semibold"
+                      >
+                        "The best agency we've worked with so far. They
+                        understand our product and are able to add new features
+                        with a great focus."
+                      </h2>
+                    </div>
+                    <div class="flex flex-row gap-3 lg:gap-5">
+                      <div>
+                        <img
+                          class="w-13"
+                          src="./public/partials/images/home/Mask Group.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <p class="text-[16px] lg:text-[20px] text-gray">
+                          Jenny Wilson
+                        </p>
+                        <p class="text-[11px] lg:text-[14px] text-gray">
+                          Vice President
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="flex flex-col items-start gap-12">
+                    <div>
+                      <h2
+                        class="text-[18px] lg:text-[32px] text-gray font-semibold"
+                      >
+                        "The best agency we've worked with so far. They
+                        understand our product and are able to add new features
+                        with a great focus."
+                      </h2>
+                    </div>
+                    <div class="flex flex-row gap-3 lg:gap-5">
+                      <div>
+                        <img
+                          class="w-13"
+                          src="./public/partials/images/home/Mask Group.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <p class="text-[16px] lg:text-[20px] text-gray">
+                          Jenny Wilson
+                        </p>
+                        <p class="text-[11px] lg:text-[14px] text-gray">
+                          Vice President
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-row justify-end gap-3 absolute bottom-12 right-0 relative z-50"
+            >
+              <div
+                class="swiper-button-prev-custom flex items-center justify-center w-9 h-9 lg:w-12 lg:h-12 rounded-full bg-white cursor-pointer"
+              >
+                <svg
+                  width="36"
+                  height="36"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="gray"
+                  stroke-width="2"
+                >
+                  <path d="M15 18l-6-6 6-6" />
+                </svg>
+              </div>
+              <div
+                class="swiper-button-next-custom flex items-center justify-center w-9 h-9 lg:w-12 lg:h-12 rounded-full bg-blue cursor-pointer"
+              >
+                <svg
+                  width="36"
+                  height="36"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="white"
+                  stroke-width="2"
+                >
+                  <path d="M9 18l6-6-6-6" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <!-- end right column -->
+        </div>
+      </section>
+      <!-- end client -->
+
+      <!--start questions -->
+      <section class="bg-white pt-10 pb-13 lg:pt-30 lg:pb-25 w-full">
+        <div class="container flex flex-col lg:flex-row lg:justify-between">
+          <!-- start left column -->
+          <div
+            class="flex flex-col gap-3 lg:gap-6 items-center lg:items-start lg:w-[25%]"
+          >
+            <h2
+              class="text-gray font-bold text-center lg:text-start text-[24px] lg:text-[42px] lg:leading-13"
+            >
+              Frequently asked questions
+            </h2>
+            <a
+              href="./pages/contactus.html"
+              class="text-blue text-[14px] lg:text-[20px] font-semibold cursor-pointer"
+              >Contact us for more info</a
+            >
+          </div>
+          <!-- end left column -->
+          <!-- start right column -->
+          <div class="lg:w-[65%] pt-8 lg:-mt-10">
+            <div
+              class="collapse collapse-plus border-b-2 lg:border-b-3 border-[#efeff4] rounded-none text-midgray lg:text-3xl lg:pb-3"
+            >
+              <input type="checkbox" />
+
+              <div class="collapse-title flex items-center gap-4">
+                <span class="font-bold text-blue lg:text-[24px]">01</span>
+
+                <h3
+                  class="lg:ml-10 font-semibold text-gray text-[18px] lg:text-[26px]"
+                >
+                  How much time does it take?
+                </h3>
+              </div>
+
+              <div class="collapse-content ml-8 lg:ml-20 w-[75%]">
+                <p
+                  class="text-midgray font-semibold lg:pb-6 text-[14px] lg:text-[20px]"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempore velit quos fugiat id itaque rerum. Lorem ipsum dolor
+                  sit amet.
+                </p>
+              </div>
+            </div>
+            <div
+              class="collapse collapse-plus border-b-2 lg:border-b-3 border-[#efeff4] rounded-none text-midgray lg:text-3xl lg:py-3"
+            >
+              <input type="checkbox" />
+
+              <div class="collapse-title flex items-center gap-4">
+                <span class="font-bold text-blue lg:text-[24px]">02</span>
+
+                <h3
+                  class="lg:ml-10 font-semibold text-gray text-[18px] lg:text-[26px]"
+                >
+                  What is your class naming convention?
+                </h3>
+              </div>
+
+              <div class="collapse-content ml-8 lg:ml-20 w-[75%]">
+                <p
+                  class="text-midgray font-semibold lg:pb-6 text-[14px] lg:text-[20px]"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempore velit quos fugiat id itaque rerum. Lorem ipsum dolor
+                  sit amet.
+                </p>
+              </div>
+            </div>
+            <div
+              class="collapse collapse-plus border-b-2 lg:border-b-3 border-[#efeff4] rounded-none text-midgray lg:text-3xl lg:py-3"
+            >
+              <input type="checkbox" />
+
+              <div class="collapse-title flex items-center gap-4">
+                <span class="font-bold text-blue lg:text-[24px]">03</span>
+
+                <h3
+                  class="lg:ml-10 font-semibold text-gray text-[18px] lg:text-[26px]"
+                >
+                  How do you communicate?
+                </h3>
+              </div>
+
+              <div class="collapse-content ml-8 lg:ml-20 w-[75%]">
+                <p
+                  class="text-midgray font-semibold lg:pb-6 text-[14px] lg:text-[20px]"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempore velit quos fugiat id itaque rerum. Lorem ipsum dolor
+                  sit amet.
+                </p>
+              </div>
+            </div>
+            <div
+              class="collapse collapse-plus border-b-2 lg:border-b-3 border-[#efeff4] rounded-none text-midgray lg:text-3xl lg:py-3"
+            >
+              <input type="checkbox" />
+
+              <div class="collapse-title flex items-center gap-4">
+                <span class="font-bold text-blue lg:text-[24px]">04</span>
+
+                <h3
+                  class="lg:ml-10 font-semibold text-gray text-[18px] lg:text-[26px]"
+                >
+                  I have a bigger project. Can you handle it?
+                </h3>
+              </div>
+
+              <div class="collapse-content ml-8 lg:ml-20 w-[75%]">
+                <p
+                  class="text-midgray font-semibold lg:pb-6 text-[14px] lg:text-[20px]"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempore velit quos fugiat id itaque rerum. Lorem ipsum dolor
+                  sit amet.
+                </p>
+              </div>
+            </div>
+            <div
+              class="collapse collapse-plus text-midgray lg:py-3 lg:text-3xl"
+            >
+              <input type="checkbox" />
+
+              <div class="collapse-title flex items-center gap-4">
+                <span class="font-bold text-blue lg:text-[24px]">05</span>
+
+                <h3
+                  class="lg:ml-10 font-semibold text-gray text-[18px] lg:text-[26px]"
+                >
+                  What is your class naming convention?
+                </h3>
+              </div>
+
+              <div class="collapse-content ml-8 lg:ml-20 w-[75%]">
+                <p
+                  class="text-midgray font-semibold lg:pb-6 text-[14px] lg:text-[20px]"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempore velit quos fugiat id itaque rerum. Lorem ipsum dolor
+                  sit amet.
+                </p>
+              </div>
+            </div>
+
+            <!-- end right column -->
+          </div>
+        </div>
+      </section>
+      <!-- end questions -->
+
+      <!-- start send inquiry -->
+      <section class="bg-white w-full h-full lg:pb-30">
+        <div class="container flex flex-col lg:flex-row lg:justify-around">
+          <!-- start left column -->
+          <div class="lg:w-[54%] hidden lg:block relative overflow-hidden">
+            <img
+              class="object-cover w-full h-full"
+              src="./public/partials/images/home/woman-writing-on-paper-3228878.jpg"
+              alt=""
+            />
+            <div
+              class="absolute inset-0 bg-[#1c1e538d] flex flex-col justify-center px-25 gap-4"
+            >
+              <h2 class="text-white text-[48px] font-semibold">
+                Building stellar websites for early startups
+              </h2>
+              <p class="text-white text-[18px] leading-7">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Maiores voluptatibus nemo mollitia non unde ducimus ipsam
+                accusantium repellat! Accusamus, odit?
+              </p>
+            </div>
+          </div>
+          <!-- end left column -->
+          <!-- start right column -->
+          <div
+            class="bg-bghero pt-8 lg:pt-23 pb-8 lg:pb-10 w-full lg:w-[50%] px-10 lg:px-25"
+          >
+            <!-- start caption -->
+            <div
+              class="flex flex-col items-center lg:items-start gap-3 lg:gap-4"
+            >
+              <h2 class="text-white text-[17px] lg:text-[34px] font-semibold">
+                Send inquiry
+              </h2>
+              <p class="text-white lg:text-[18px]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquid, placeat.Praesentium quasi maxime dicta.
+              </p>
+            </div>
+            <!-- end caption -->
+            <!--start forms -->
+            <div class="pt-8 flex flex-col gap-2 lg:gap-4">
+              <div>
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  class="w-full h-8 lg:h-15 text-[16px] lg:text-[18px] border border-[#2d2e69] rounded-lg px-5 text-gray-500 placeholder:text-[#888aa7] focus:outline-none"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  placeholder="Email"
+                  class="w-full h-8 lg:h-15 text-[16px] lg:text-[18px] border border-[#2d2e69] rounded-lg px-5 text-gray-500 placeholder:text-[#888aa7] focus:outline-none"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  placeholder="Paste your Figma design URL"
+                  class="w-full h-8 lg:h-15 text-[16px] lg:text-[18px] border border-[#2d2e69] rounded-lg px-5 text-gray-500 placeholder:text-[#888aa7] focus:outline-none"
+                />
+              </div>
+            </div>
+            <!-- end forms -->
+            <!-- start buttons -->
+            <div
+              class="flex flex-col items-center gap-3 lg:gap-6 pt-5 lg:pt-10"
+            >
+              <div class="">
+                <button
+                  class="bg-yellow text-bghero py-2 lg:py-4 px-5 lg:px-10 rounded-full whitespace-nowrap"
+                >
+                  <p
+                    class="text-[13px] lg:text-[20px] font-semibold cursor-pointer"
+                  >
+                    Send an Inquiry
+                  </p>
+                </button>
+              </div>
+              <div class="">
+                <button class="flex flex-row gap-2 items-center">
+                  <a
+                    href="./pages/contactus.html"
+                    class="text-white text-[13px] lg:text-[20px] font-semibold cursor-pointer"
+                  >
+                    Get in touch with us
+                  </a>
+
+                  <svg
+                    width="25"
+                    height="12"
+                    viewBox="0 0 25 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                      fill="#fff"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <!-- end buttons -->
+          </div>
+          <!-- end right column -->
+        </div>
+      </section>
+      <!-- end send inquiry -->
+
+      <!-- start ourblog -->
+      <section class="bg-white py-10 lg:pt-2 lg:pb-29">
+        <div class="container flex flex-col gap-5">
+          <!-- start title -->
+          <h2 class="text-[23px] text-gray lg:text-[48px] font-bold">
+            Our blog
+          </h2>
+          <!-- end title -->
+          <!-- start blog -->
+          <div class="flex flex-col lg:pt-10 lg:flex-row gap-5 lg:gap-7">
+            <div class="lg:w-1/3">
+              <img
+                class="w-full object-cover"
+                src="./public/partials/images/home/1st.jpeg"
+                alt=""
+              />
+              <p class="text-[#696a74] lg:text-[18px] pt-5 lg:pt-10">
+                19 Jan 2022
+              </p>
+              <p class="text-gray text-[18px]  lg:text-[24px] font-semibold lg:pt-4 lg:w-[97%]">
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </p>
+              <p class="text-[#6d6e78] lg:text-[18px] lg:pt-6">
+                See how pivoting to Webflow changed one person’s sales strategy
+                and allowed him to attract
+              </p>
+              <a
+                class="flex flex-row items-center gap-2 cursor-pointer lg:pt-8"
+              >
+                <p class="text-gray text-[14px] lg:text-[17px]">Read More</p>
+                <svg
+                  width="25"
+                  height="12"
+                  viewBox="0 0 25 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                    fill="#282938"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+           <div class="lg:w-1/3">
+              <img
+                class="w-full object-cover"
+                src="./public/partials/images/home/2nd.jpeg"
+                alt=""
+              />
+              <p class="text-[#696a74] lg:text-[18px] pt-5 lg:pt-10">
+                19 Jan 2022
+              </p>
+              <p class="text-gray text-[18px]  lg:text-[24px] font-semibold lg:pt-4 lg:w-[97%]">
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </p>
+              <p class="text-[#6d6e78] lg:text-[18px] lg:pt-6">
+                See how pivoting to Webflow changed one person’s sales strategy
+                and allowed him to attract
+              </p>
+              <a
+                class="flex flex-row items-center gap-2 cursor-pointer lg:pt-8"
+              >
+                <p class="text-gray text-[14px] lg:text-[17px]">Read More</p>
+                <svg
+                  width="25"
+                  height="12"
+                  viewBox="0 0 25 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                    fill="#282938"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <div class="lg:w-1/3">
+              <img
+                class="w-full object-cover"
+                src="./public/partials/images/home/3rd.jpeg"
+                alt=""
+              />
+              <p class="text-[#696a74] lg:text-[18px] pt-5 lg:pt-10">
+                19 Jan 2022
+              </p>
+              <p class="text-gray text-[18px]  lg:text-[24px] font-semibold lg:pt-4 lg:w-[97%]">
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </p>
+              <p class="text-[#6d6e78] lg:text-[18px] lg:pt-6">
+                See how pivoting to Webflow changed one person’s sales strategy
+                and allowed him to attract
+              </p>
+              <a
+                class="flex flex-row items-center gap-2 cursor-pointer lg:pt-8"
+              >
+                <p class="text-gray text-[14px] lg:text-[17px]">Read More</p>
+                <svg
+                  width="25"
+                  height="12"
+                  viewBox="0 0 25 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                    fill="#282938"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          <!-- end blog -->
+        </div>
+      </section>
+      <!-- end ourblog -->
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+     <footer>
+      <section class="bg-bghero">
+        <div class="container flex flex-col lg:flex-row">
+          <!-- start left column -->
+           <div class="flex flex-col lg:w-[41%] pt-8 lg:pt-24">
+              <div class="">
+                <img class="w-20 lg:w-40" src="./public/partials/images/hero-home/logo.svg" alt="">
+              </div>
+              <div class="py-3 lg:pt-7 lg:pb-20 w-[80%]">
+                <p class="lg:text-[19px] text-[#d2d2dd]">
+                  We are always open to discuss your project and improve your online
+                  presence.
+                 </p>
+              </div>
+              <div class="flex flex-col lg:flex-row gap-1 lg:gap-8 bg-yellow pl-3 py-2 lg:pl-0 lg:py-4">
+                <div class="flex flex-col lg:pl-10">
+                  <p class="lg:text-[19px] text-bghero font-semibold">Email me at</p>
+                  <p class="lg:text-[19px] text-[#524c47]">contact@website.com</p>
+                </div>
+                <div class="flex flex-col">
+                  <p class="lg:text-[19px] text-bghero font-semibold">Call us</p>
+                  <p class="lg:text-[19px] text-[#524c47]">0927 6277 28525</p>
+                </div>
+              </div>
+           </div>
+          <!-- end left column -->
+          <!-- start right column -->
+            <div class="pt-3 pb-8 lg:w-[45%] lg:pl-35 lg:pt-19">
+              <h2 class="lg:text-[54px] font-bold text-white">Lets Talk!</h2>
+              <p class="pt-2 lg:pt-3 lg:text-[19px] text-[#d2d2dd]">
+                 We are always open to discuss your project, improve your online
+                 presence, and help with your UX/UI design challenges.
+              </p>
+              <div class="pt-3 lg:pt-6">
+                <a href="#">
+                  <img src="./public/partials/images/home/Social Media Icon.svg" alt="">
+                </a>
+              </div>
+            </div>
+          <!-- end right column -->
+        </div>
+      </section>
+
+      <section class="bg-white">
+        <div class="container py-2 lg:py-7 flex flex-col gap-1 items-center justify-center lg:flex-row lg:justify-between">
+           <div>
+            <p class="text-gray font-semibold text-[14px] lg:text-[18px]"> 
+            Copyright 2022, Finsweet.com
+            </p>
+           </div>
+           <div class="flex flex-row gap-2 whitespace-nowrap lg:gap-4 text-gray font-semibold text-[14px] lg:text-[18px]">
+            <a href="#">Home</a>
+            <a href="./pages/aboutus.html">About us</a>
+            <a href="./pages/features.html">Features</a>
+            <a href="./pages/pricing.html">Pricing</a>
+            <a href="#">FAQ</a>
+            <a href="./pages/blog.html">Blog</a>
+           </div>
+        </div>
+      </section>
+     </footer>
+     <!-- end footer -->
+   
+    <!-- <script src="./node_modules/swiper/swiper-bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper1", {
+        autoHeight: true,
+        navigation: {
+          nextEl: ".swiper-button-next-custom",
+          prevEl: ".swiper-button-prev-custom",
+        },
+      });
+    </script>
+  </body>
+</html>

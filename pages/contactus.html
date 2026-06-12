@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="../public/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <section class="w-full pb-5 pt-5 lg:py-4 bg-bghero">
+        <!-- start navbar -->
+        <div class="flex flex-row items-center justify-between container">
+          <!--start logo -->
+          <div class="">
+            <img
+              class="w-27 lg:w-30.5"
+              src="../public/partials/images/hero-home/logo.svg"
+              alt="Logo"
+            />
+          </div>
+          <!-- end logo -->
+          <!-- start menu -->
+          <div class="hidden lg:flex flex-row items-center gap-8 text-[18px]">
+            <a class="text-lightgray hover:text-white" href="../index.html"
+              >Home</a
+            >
+            <a
+              class="text-lightgray hover:text-white"
+              href="../pages/aboutus.html"
+              >About us</a
+            >
+            <a
+              class="text-lightgray hover:text-white"
+              href="../pages/features.html"
+              >Features</a
+            >
+            <a
+              class="text-lightgray hover:text-white"
+              href="../pages/pricing.html"
+              >Pricing</a
+            >
+            <a class="text-lightgray hover:text-white" href="#">FAQ</a>
+            <a class="text-lightgray hover:text-white" href="../pages/blog.html"
+              >Blog</a
+            >
+            <a
+              class="border-2 px-12 py-3 ml-2 rounded-full text-bghero bg-yellow border-white"
+              href="#"
+              >Contact us</a
+            >
+          </div>
+          <input type="checkbox" id="menu-toggle" class="hidden peer" />
+          <label
+            for="menu-toggle"
+            class="lg:hidden cursor-pointer text-gray-300 hover:text-white"
+          >
+            <svg
+              class="w-8 h-8"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </label>
+          <div
+            class="fixed inset-0 bg-bghero z-500 flex-col items-center hidden peer-checked:flex"
+          >
+            <label
+              for="menu-toggle"
+              class="cursor-pointer self-start text-gray-300 hover:text-white p-8"
+            >
+              <svg
+                class="w-8 h-8"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                ></path>
+              </svg>
+            </label>
+
+            <nav
+              class="flex flex-col gap-8 text-xl text-center flex-1 justify-center items-center"
+            >
+              <a href="../index.html" class="text-gray-300 hover:text-white"
+                >Home</a
+              >
+              <a
+                href="../pages/aboutus.html"
+                class="text-gray-300 hover:text-white"
+                >About us</a
+              >
+              <a
+                href="../pages/features.html"
+                class="text-gray-300 hover:text-white"
+                >Features</a
+              >
+              <a
+                href="../pages/pricing.html"
+                class="text-gray-300 hover:text-white"
+                >Pricing</a
+              >
+              <a href="#" class="text-gray-300 hover:text-white">FAQ</a>
+              <a
+                href="../pages/blog.html"
+                class="text-gray-300 hover:text-white"
+                >Blog</a
+              >
+              <a
+                href="../pages/contactus.html"
+                class="border-2 px-8 py-2 rounded-full text-bghero bg-yellow border-white"
+                >Contact us</a
+              >
+            </nav>
+          </div>
+          <!-- end menu -->
+        </div>
+        <!-- end navbar -->
+      </section>
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <main>
+      <!-- start title -->
+      <section class="bg-white pt-15 pb-7.5 lg:pt-30 lg:pb-15">
+        <div class="container flex flex-col items-center lg:gap-3">
+          <h2
+            class="text-gray font-bold text-[32px] text-center lg:text-[54px] leading-10 lg:leading-18"
+          >
+            Contact Us
+          </h2>
+          <p class="lg:w-[45%] text-midgray text-center lg:text-[18px]">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Voluptatibus cum ipsum assumenda a fugit veritatis in, eius error
+            fugiat placeat!
+          </p>
+        </div>
+      </section>
+      <!-- end title -->
+
+      <!-- start form -->
+      <section class="bg-white pb-15 lg:pb-30">
+        <div
+          class="w-[67%] mx-auto bg-bgblue rounded-xl flex flex-col gap-2 lg:gap-5 py-5 px-10 lg:px-20 lg:py-15"
+        >
+          <!-- 1 -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-8">
+            <div class="flex flex-col gap-1 lg:gap-2">
+              <p class="text-gray lg:text-[20px] font-semibold">Name</p>
+              <input
+                type="text"
+                placeholder="Enter your name"
+                class="w-full h-8 lg:h-15 text-gray placeholder:text-gray text-[14px] lg:text-[18px] border-2 border-gray-200 rounded-lg px-3 lg:px-8 focus:outline-none"
+              />
+            </div>
+            <div class="flex flex-col gap-1 lg:gap-2">
+              <p class="text-gray lg:text-[20px] font-semibold">Email</p>
+              <input
+                type="email"
+                placeholder="Enter your Email"
+                class="w-full h-8 lg:h-15 text-gray placeholder:text-gray text-[14px] lg:text-[18px] border-2 border-gray-200 rounded-lg px-3 lg:px-8 focus:outline-none"
+              />
+            </div>
+          </div>
+          <!-- 1 -->
+          <!-- 2 -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-8">
+            <div class="flex flex-col gap-1 lg:gap-2">
+              <p class="text-gray lg:text-[20px] font-semibold">Subject</p>
+              <input
+                type="text"
+                placeholder="Provide context"
+                class="w-full h-8 lg:h-15 text-gray placeholder:text-gray text-[14px] lg:text-[18px] border-2 border-gray-200 rounded-lg px-3 lg:px-8 focus:outline-none"
+              />
+            </div>
+            <div class="flex flex-col gap-1 lg:gap-2">
+              <p class="text-gray lg:text-[20px] font-semibold">Subject</p>
+              <input
+                type="text"
+                placeholder="Select Subject"
+                class="w-full h-8 lg:h-15 text-gray placeholder:text-gray text-[14px] lg:text-[18px] border-2 border-gray-200 rounded-lg px-3 lg:px-8 focus:outline-none"
+              />
+            </div>
+          </div>
+          <!-- 2 -->
+          <!-- 3 -->
+          <div class="flex flex-col gap-1 lg:gap-2">
+            <p class="text-gray lg:text-[20px] font-semibold">Message</p>
+            <textarea
+              placeholder="Write your question here"
+              class="w-full h-25 lg:h-31 text-gray placeholder:text-gray text-[14px] lg:text-[18px] border-2 border-gray-200 rounded-lg px-3 lg:px-8 py-4 lg:py-5 resize-none focus:outline-none"
+            ></textarea>
+          </div>
+          <!-- 3 -->
+          <!-- 4 -->
+          <div class="flex justify-center lg:justify-start lg:mt-3">
+            <div
+              class="bg-gray flex justify-center px-4 py-2 lg:px-17 lg:py-4 rounded-full cursor-pointer"
+            >
+              <a
+                class="text-white text-[13px] lg:text-[20px] lg:font-semibold whitespace-nowrap"
+                href="./pages/work.html"
+                >Send Message</a
+              >
+            </div>
+          </div>
+          <!-- 4 -->
+        </div>
+      </section>
+      <!-- end form -->
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer>
+      <section class="bg-bghero">
+        <div class="container flex flex-col lg:flex-row">
+          <!-- start left column -->
+          <div class="flex flex-col lg:w-[41%] pt-8 lg:pt-24">
+            <div class="">
+              <img
+                class="w-20 lg:w-40"
+                src="../public/partials/images/hero-home/logo.svg"
+                alt=""
+              />
+            </div>
+            <div class="py-3 lg:pt-7 lg:pb-20 w-[80%]">
+              <p class="lg:text-[19px] text-[#d2d2dd]">
+                We are always open to discuss your project and improve your
+                online presence.
+              </p>
+            </div>
+            <div
+              class="flex flex-col lg:flex-row gap-1 lg:gap-8 bg-yellow pl-3 py-2 lg:pl-0 lg:py-4"
+            >
+              <div class="flex flex-col lg:pl-10">
+                <p class="lg:text-[19px] text-bghero font-semibold">
+                  Email me at
+                </p>
+                <p class="lg:text-[19px] text-[#524c47]">contact@website.com</p>
+              </div>
+              <div class="flex flex-col">
+                <p class="lg:text-[19px] text-bghero font-semibold">Call us</p>
+                <p class="lg:text-[19px] text-[#524c47]">0927 6277 28525</p>
+              </div>
+            </div>
+          </div>
+          <!-- end left column -->
+          <!-- start right column -->
+          <div class="pt-3 pb-8 lg:w-[45%] lg:pl-35 lg:pt-19">
+            <h2 class="lg:text-[54px] font-bold text-white">Lets Talk!</h2>
+            <p class="pt-2 lg:pt-3 lg:text-[19px] text-[#d2d2dd]">
+              We are always open to discuss your project, improve your online
+              presence, and help with your UX/UI design challenges.
+            </p>
+            <div class="pt-3 lg:pt-6">
+              <a href="#">
+                <img
+                  src="../public/partials/images/home/Social Media Icon.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <!-- end right column -->
+        </div>
+      </section>
+
+      <section class="bg-white">
+        <div
+          class="container py-2 lg:py-7 flex flex-col gap-1 items-center justify-center lg:flex-row lg:justify-between"
+        >
+          <div>
+            <p class="text-gray font-semibold text-[14px] lg:text-[18px]">
+              Copyright 2022, Finsweet.com
+            </p>
+          </div>
+          <div
+            class="flex flex-row gap-2 whitespace-nowrap lg:gap-4 text-gray font-semibold text-[14px] lg:text-[18px]"
+          >
+            <a href="../index.html">Home</a>
+            <a href="../pages/aboutus.html">About us</a>
+            <a href="../pages/features.html">Features</a>
+            <a href="../pages/pricing.html">Pricing</a>
+            <a href="#">FAQ</a>
+            <a href="../pages/blog.html">Blog</a>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- end footer -->
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "section7-2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
+  "devDependencies": {
+    "daisyui": "^5.5.20",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "swiper": "^12.2.0",
+    "tailwindcss": "^4.2.1"
+  }
+}
